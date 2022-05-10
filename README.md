@@ -1,2 +1,2 @@
 # framedeck
-A Framework mainboard based Cyberdeck
+A Cyberdeck built with the Framework mainboard.
