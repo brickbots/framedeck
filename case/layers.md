@@ -10,6 +10,6 @@ Please see this table below for full details
 ## Hardware
 Layer|Thickness (MM)|Notes|Image
 ---|---|---|---
-A|1.5|Top|![A](a_top.png "Layer A")
-B|2.0||![B](b.png "Layer B")
+A|1.5|Top|![A](../images/layers/a_top.png "Layer A")
+B|2.0||![B](../images/layers/b.png "Layer B")
 
