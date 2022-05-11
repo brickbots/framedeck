@@ -5,7 +5,18 @@ for laser printing, they use MM as units.  Layers are built in roughly
 alphabetical order from the top down, but some layers appear twice and 
 may be different thicknesses.
 
-Please see this table below for full details
+Around the edge of all the layers (except the last one) are holes to 
+hold the whole sandwich together.  The A (top) and L (bottom) layers 
+have holes sized for M2 screws.  The layers between have holes sized
+for M2 standoffs.  You can screw into the standoffs from the top 
+and bottom to secure the assembly.  You will need LONG standoffs...
+I had to combine a couple to get them long enough.
+
+The bottom two layers are held together with M2 heat set inserts.  
+These inserts serve to secure the very bottom M layer to the bottom L 
+layer and also provide fixing points for the mainboard and battery.
+
+Please see this table below for full details of all the layers
 
 ## Hardware
 Layer|Thickness (MM)|Notes|Image
