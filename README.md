@@ -4,10 +4,10 @@ A Cyberdeck built with the framework mainboard.
 
 PIC
 
-[Framework] (https://frame.work) has 
+[Framework](https://frame.work) has 
 created a really slick fully user servicable laptop... and they have recently starting 
-selling the [mainboard] (https://frame.work/marketplace/mainboards) as a separate unit
-and have started to release [technical documentation] (https://github.com/FrameworkComputer/Mainboard) 
+selling the [mainboard](https://frame.work/marketplace/mainboards) as a separate unit
+and have started to release [technical documentation](https://github.com/FrameworkComputer/Mainboard) 
 to enable general maker use.  It's pretty much a full Intel based system with great storage
 and memory expansion, decent on-board graphics and full power management.  
 
@@ -18,7 +18,7 @@ PIC here
 
 It's my take on the slab style computers that were somewhat popular before the world settled
 on clamshell designs for portable computers.  I really wanted a 
-[TRS-80 model 100] (https://en.wikipedia.org/wiki/TRS-80_Model_100) when I was young so this
+[TRS-80 model 100](https://en.wikipedia.org/wiki/TRS-80_Model_100) when I was young so this
 sort of design was a big influence.
 
 To complete the unit I added battery from the framework laptop, custom mechanical keyboard, wifi card, 
@@ -43,7 +43,7 @@ my design files for reference, but there are lots of details of the build I prob
 If you want to build one, or something similar, feel free to reach out and I'd be happy to answer
 and questions or provide advice.
 
-* [Build Tour] (docs/build_tour.md)
-* [Parts List] (docs/parts.md)
-* [Case Layers] (case/layers.md)
-* [3d Printed Bits] (printed_parts/bits.md)
+* [Build Tour](docs/build_tour.md)
+* [Parts List](docs/parts.md)
+* [Case Layers](case/layers.md)
+* [3d Printed Bits](printed_parts/bits.md)
