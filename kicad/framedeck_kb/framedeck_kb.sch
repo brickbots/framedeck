@@ -1,0 +1,1393 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text GLabel 7900 4550 0    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR0101
+U 1 1 61973D8F
+P 9700 4650
+F 0 "#PWR0101" H 9700 4400 50  0001 C CNN
+F 1 "GND" H 9705 4477 50  0000 C CNN
+F 2 "" H 9700 4650 50  0001 C CNN
+F 3 "" H 9700 4650 50  0001 C CNN
+	1    9700 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0102
+U 1 1 61974548
+P 10150 6100
+F 0 "#PWR0102" H 10150 5850 50  0001 C CNN
+F 1 "GND" H 10155 5927 50  0000 C CNN
+F 2 "" H 10150 6100 50  0001 C CNN
+F 3 "" H 10150 6100 50  0001 C CNN
+	1    10150 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW37
+U 1 1 61974F5B
+P 10350 6100
+F 0 "SW37" H 10350 6385 50  0000 C CNN
+F 1 "Reset Switch" H 10350 6294 50  0000 C CNN
+F 2 "Horizon:SW_Push_6mm" H 10350 6300 50  0001 C CNN
+F 3 "~" H 10350 6300 50  0001 C CNN
+	1    10350 6100
+	1    0    0    -1  
+$EndComp
+Text GLabel 10550 6100 2    50   Input ~ 0
+reset
+$Comp
+L power:GND #PWR0103
+U 1 1 61975D6B
+P 7400 4300
+F 0 "#PWR0103" H 7400 4050 50  0001 C CNN
+F 1 "GND" H 7405 4127 50  0000 C CNN
+F 2 "" H 7400 4300 50  0001 C CNN
+F 3 "" H 7400 4300 50  0001 C CNN
+	1    7400 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0104
+U 1 1 619773E8
+P 7400 4750
+F 0 "#PWR0104" H 7400 4600 50  0001 C CNN
+F 1 "VCC" H 7415 4923 50  0000 C CNN
+F 2 "" H 7400 4750 50  0001 C CNN
+F 3 "" H 7400 4750 50  0001 C CNN
+	1    7400 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 4300 7600 4300
+Wire Wire Line
+	7600 4300 7600 4450
+Wire Wire Line
+	7600 4450 7900 4450
+Wire Wire Line
+	7400 4750 7600 4750
+Wire Wire Line
+	7600 4750 7600 4650
+Wire Wire Line
+	7600 4650 7900 4650
+$Comp
+L HorizonParts:D D1
+U 1 1 6197841F
+P 1600 1500
+F 0 "D1" V 1646 1432 50  0000 R CNN
+F 1 "D" V 1555 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 1600 1500 50  0001 C CNN
+F 3 "~" V 1600 1500 50  0001 C CNN
+	1    1600 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 1300 1600 1400
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61977F08
+P 1400 1300
+F 0 "SW1" H 1400 1585 50  0000 C CNN
+F 1 "SW_Push" H 1400 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 1400 1500 50  0001 C CNN
+F 3 "~" H 1400 1500 50  0001 C CNN
+	1    1400 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D11
+U 1 1 6197E596
+P 1600 2200
+F 0 "D11" V 1646 2132 50  0000 R CNN
+F 1 "D" V 1555 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 1600 2200 50  0001 C CNN
+F 3 "~" V 1600 2200 50  0001 C CNN
+	1    1600 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2000 1600 2100
+$Comp
+L Switch:SW_Push SW11
+U 1 1 6197E59D
+P 1400 2000
+F 0 "SW11" H 1400 2285 50  0000 C CNN
+F 1 "SW_Push" H 1400 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 1400 2200 50  0001 C CNN
+F 3 "~" H 1400 2200 50  0001 C CNN
+	1    1400 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D21
+U 1 1 619805FA
+P 1600 2900
+F 0 "D21" V 1646 2832 50  0000 R CNN
+F 1 "D" V 1555 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 1600 2900 50  0001 C CNN
+F 3 "~" V 1600 2900 50  0001 C CNN
+	1    1600 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1600 2700 1600 2800
+$Comp
+L Switch:SW_Push SW21
+U 1 1 61980601
+P 1400 2700
+F 0 "SW21" H 1400 2985 50  0000 C CNN
+F 1 "SW_Push" H 1400 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 1400 2900 50  0001 C CNN
+F 3 "~" H 1400 2900 50  0001 C CNN
+	1    1400 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D2
+U 1 1 61984D45
+P 2400 1500
+F 0 "D2" V 2446 1432 50  0000 R CNN
+F 1 "D" V 2355 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 2400 1500 50  0001 C CNN
+F 3 "~" V 2400 1500 50  0001 C CNN
+	1    2400 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 1300 2400 1400
+$Comp
+L Switch:SW_Push SW2
+U 1 1 61984D4C
+P 2200 1300
+F 0 "SW2" H 2200 1585 50  0000 C CNN
+F 1 "SW_Push" H 2200 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 2200 1500 50  0001 C CNN
+F 3 "~" H 2200 1500 50  0001 C CNN
+	1    2200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D12
+U 1 1 61984D52
+P 2400 2200
+F 0 "D12" V 2446 2132 50  0000 R CNN
+F 1 "D" V 2355 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 2400 2200 50  0001 C CNN
+F 3 "~" V 2400 2200 50  0001 C CNN
+	1    2400 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2000 2400 2100
+$Comp
+L Switch:SW_Push SW12
+U 1 1 61984D59
+P 2200 2000
+F 0 "SW12" H 2200 2285 50  0000 C CNN
+F 1 "SW_Push" H 2200 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 2200 2200 50  0001 C CNN
+F 3 "~" H 2200 2200 50  0001 C CNN
+	1    2200 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D22
+U 1 1 61984D5F
+P 2400 2900
+F 0 "D22" V 2446 2832 50  0000 R CNN
+F 1 "D" V 2355 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 2400 2900 50  0001 C CNN
+F 3 "~" V 2400 2900 50  0001 C CNN
+	1    2400 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2400 2700 2400 2800
+$Comp
+L Switch:SW_Push SW22
+U 1 1 61984D66
+P 2200 2700
+F 0 "SW22" H 2200 2985 50  0000 C CNN
+F 1 "SW_Push" H 2200 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 2200 2900 50  0001 C CNN
+F 3 "~" H 2200 2900 50  0001 C CNN
+	1    2200 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D3
+U 1 1 61987C22
+P 3200 1500
+F 0 "D3" V 3246 1432 50  0000 R CNN
+F 1 "D" V 3155 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 3200 1500 50  0001 C CNN
+F 3 "~" V 3200 1500 50  0001 C CNN
+	1    3200 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 1300 3200 1400
+$Comp
+L Switch:SW_Push SW3
+U 1 1 61987C29
+P 3000 1300
+F 0 "SW3" H 3000 1585 50  0000 C CNN
+F 1 "SW_Push" H 3000 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3000 1500 50  0001 C CNN
+F 3 "~" H 3000 1500 50  0001 C CNN
+	1    3000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D13
+U 1 1 61987C2F
+P 3200 2200
+F 0 "D13" V 3246 2132 50  0000 R CNN
+F 1 "D" V 3155 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 3200 2200 50  0001 C CNN
+F 3 "~" V 3200 2200 50  0001 C CNN
+	1    3200 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2000 3200 2100
+$Comp
+L Switch:SW_Push SW13
+U 1 1 61987C36
+P 3000 2000
+F 0 "SW13" H 3000 2285 50  0000 C CNN
+F 1 "SW_Push" H 3000 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3000 2200 50  0001 C CNN
+F 3 "~" H 3000 2200 50  0001 C CNN
+	1    3000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D23
+U 1 1 61987C3C
+P 3200 2900
+F 0 "D23" V 3246 2832 50  0000 R CNN
+F 1 "D" V 3155 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 3200 2900 50  0001 C CNN
+F 3 "~" V 3200 2900 50  0001 C CNN
+	1    3200 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 2700 3200 2800
+$Comp
+L Switch:SW_Push SW23
+U 1 1 61987C43
+P 3000 2700
+F 0 "SW23" H 3000 2985 50  0000 C CNN
+F 1 "SW_Push" H 3000 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3000 2900 50  0001 C CNN
+F 3 "~" H 3000 2900 50  0001 C CNN
+	1    3000 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D4
+U 1 1 6198C8DE
+P 4000 1500
+F 0 "D4" V 4046 1432 50  0000 R CNN
+F 1 "D" V 3955 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4000 1500 50  0001 C CNN
+F 3 "~" V 4000 1500 50  0001 C CNN
+	1    4000 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1300 4000 1400
+$Comp
+L Switch:SW_Push SW4
+U 1 1 6198C8E5
+P 3800 1300
+F 0 "SW4" H 3800 1585 50  0000 C CNN
+F 1 "SW_Push" H 3800 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3800 1500 50  0001 C CNN
+F 3 "~" H 3800 1500 50  0001 C CNN
+	1    3800 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D14
+U 1 1 6198C8EB
+P 4000 2200
+F 0 "D14" V 4046 2132 50  0000 R CNN
+F 1 "D" V 3955 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4000 2200 50  0001 C CNN
+F 3 "~" V 4000 2200 50  0001 C CNN
+	1    4000 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 2000 4000 2100
+$Comp
+L Switch:SW_Push SW14
+U 1 1 6198C8F2
+P 3800 2000
+F 0 "SW14" H 3800 2285 50  0000 C CNN
+F 1 "SW_Push" H 3800 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3800 2200 50  0001 C CNN
+F 3 "~" H 3800 2200 50  0001 C CNN
+	1    3800 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D24
+U 1 1 6198C8F8
+P 4000 2900
+F 0 "D24" V 4046 2832 50  0000 R CNN
+F 1 "D" V 3955 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4000 2900 50  0001 C CNN
+F 3 "~" V 4000 2900 50  0001 C CNN
+	1    4000 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 2700 4000 2800
+$Comp
+L Switch:SW_Push SW24
+U 1 1 6198C8FF
+P 3800 2700
+F 0 "SW24" H 3800 2985 50  0000 C CNN
+F 1 "SW_Push" H 3800 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3800 2900 50  0001 C CNN
+F 3 "~" H 3800 2900 50  0001 C CNN
+	1    3800 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D5
+U 1 1 61993A89
+P 4800 1500
+F 0 "D5" V 4846 1432 50  0000 R CNN
+F 1 "D" V 4755 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4800 1500 50  0001 C CNN
+F 3 "~" V 4800 1500 50  0001 C CNN
+	1    4800 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 1300 4800 1400
+$Comp
+L Switch:SW_Push SW5
+U 1 1 61993A90
+P 4600 1300
+F 0 "SW5" H 4600 1585 50  0000 C CNN
+F 1 "SW_Push" H 4600 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 4600 1500 50  0001 C CNN
+F 3 "~" H 4600 1500 50  0001 C CNN
+	1    4600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D15
+U 1 1 61993A96
+P 4800 2200
+F 0 "D15" V 4846 2132 50  0000 R CNN
+F 1 "D" V 4755 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4800 2200 50  0001 C CNN
+F 3 "~" V 4800 2200 50  0001 C CNN
+	1    4800 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2000 4800 2100
+$Comp
+L Switch:SW_Push SW15
+U 1 1 61993A9D
+P 4600 2000
+F 0 "SW15" H 4600 2285 50  0000 C CNN
+F 1 "SW_Push" H 4600 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 4600 2200 50  0001 C CNN
+F 3 "~" H 4600 2200 50  0001 C CNN
+	1    4600 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D25
+U 1 1 61993AA3
+P 4800 2900
+F 0 "D25" V 4846 2832 50  0000 R CNN
+F 1 "D" V 4755 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4800 2900 50  0001 C CNN
+F 3 "~" V 4800 2900 50  0001 C CNN
+	1    4800 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 2700 4800 2800
+$Comp
+L Switch:SW_Push SW25
+U 1 1 61993AAA
+P 4600 2700
+F 0 "SW25" H 4600 2985 50  0000 C CNN
+F 1 "SW_Push" H 4600 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 4600 2900 50  0001 C CNN
+F 3 "~" H 4600 2900 50  0001 C CNN
+	1    4600 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D6
+U 1 1 619B4BA3
+P 6150 1500
+F 0 "D6" V 6196 1432 50  0000 R CNN
+F 1 "D" V 6105 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6150 1500 50  0001 C CNN
+F 3 "~" V 6150 1500 50  0001 C CNN
+	1    6150 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 1300 6150 1400
+$Comp
+L Switch:SW_Push SW6
+U 1 1 619B4BAA
+P 5950 1300
+F 0 "SW6" H 5950 1585 50  0000 C CNN
+F 1 "SW_Push" H 5950 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 5950 1500 50  0001 C CNN
+F 3 "~" H 5950 1500 50  0001 C CNN
+	1    5950 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D16
+U 1 1 619B4BB0
+P 6150 2200
+F 0 "D16" V 6196 2132 50  0000 R CNN
+F 1 "D" V 6105 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6150 2200 50  0001 C CNN
+F 3 "~" V 6150 2200 50  0001 C CNN
+	1    6150 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 2000 6150 2100
+$Comp
+L Switch:SW_Push SW16
+U 1 1 619B4BB7
+P 5950 2000
+F 0 "SW16" H 5950 2285 50  0000 C CNN
+F 1 "SW_Push" H 5950 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 5950 2200 50  0001 C CNN
+F 3 "~" H 5950 2200 50  0001 C CNN
+	1    5950 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D26
+U 1 1 619B4BBD
+P 6150 2900
+F 0 "D26" V 6196 2832 50  0000 R CNN
+F 1 "D" V 6105 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6150 2900 50  0001 C CNN
+F 3 "~" V 6150 2900 50  0001 C CNN
+	1    6150 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 2700 6150 2800
+$Comp
+L Switch:SW_Push SW26
+U 1 1 619B4BC4
+P 5950 2700
+F 0 "SW26" H 5950 2985 50  0000 C CNN
+F 1 "SW_Push" H 5950 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 5950 2900 50  0001 C CNN
+F 3 "~" H 5950 2900 50  0001 C CNN
+	1    5950 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D7
+U 1 1 619B4BCA
+P 6950 1500
+F 0 "D7" V 6996 1432 50  0000 R CNN
+F 1 "D" V 6905 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6950 1500 50  0001 C CNN
+F 3 "~" V 6950 1500 50  0001 C CNN
+	1    6950 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 1300 6950 1400
+$Comp
+L Switch:SW_Push SW7
+U 1 1 619B4BD1
+P 6750 1300
+F 0 "SW7" H 6750 1585 50  0000 C CNN
+F 1 "SW_Push" H 6750 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 6750 1500 50  0001 C CNN
+F 3 "~" H 6750 1500 50  0001 C CNN
+	1    6750 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D17
+U 1 1 619B4BD7
+P 6950 2200
+F 0 "D17" V 6996 2132 50  0000 R CNN
+F 1 "D" V 6905 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6950 2200 50  0001 C CNN
+F 3 "~" V 6950 2200 50  0001 C CNN
+	1    6950 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2000 6950 2100
+$Comp
+L Switch:SW_Push SW17
+U 1 1 619B4BDE
+P 6750 2000
+F 0 "SW17" H 6750 2285 50  0000 C CNN
+F 1 "SW_Push" H 6750 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 6750 2200 50  0001 C CNN
+F 3 "~" H 6750 2200 50  0001 C CNN
+	1    6750 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D27
+U 1 1 619B4BE4
+P 6950 2900
+F 0 "D27" V 6996 2832 50  0000 R CNN
+F 1 "D" V 6905 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6950 2900 50  0001 C CNN
+F 3 "~" V 6950 2900 50  0001 C CNN
+	1    6950 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2700 6950 2800
+$Comp
+L Switch:SW_Push SW27
+U 1 1 619B4BEB
+P 6750 2700
+F 0 "SW27" H 6750 2985 50  0000 C CNN
+F 1 "SW_Push" H 6750 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 6750 2900 50  0001 C CNN
+F 3 "~" H 6750 2900 50  0001 C CNN
+	1    6750 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D8
+U 1 1 619B4BF1
+P 7750 1500
+F 0 "D8" V 7796 1432 50  0000 R CNN
+F 1 "D" V 7705 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 7750 1500 50  0001 C CNN
+F 3 "~" V 7750 1500 50  0001 C CNN
+	1    7750 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 1300 7750 1400
+$Comp
+L Switch:SW_Push SW8
+U 1 1 619B4BF8
+P 7550 1300
+F 0 "SW8" H 7550 1585 50  0000 C CNN
+F 1 "SW_Push" H 7550 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 7550 1500 50  0001 C CNN
+F 3 "~" H 7550 1500 50  0001 C CNN
+	1    7550 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D18
+U 1 1 619B4BFE
+P 7750 2200
+F 0 "D18" V 7796 2132 50  0000 R CNN
+F 1 "D" V 7705 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 7750 2200 50  0001 C CNN
+F 3 "~" V 7750 2200 50  0001 C CNN
+	1    7750 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2000 7750 2100
+$Comp
+L Switch:SW_Push SW18
+U 1 1 619B4C05
+P 7550 2000
+F 0 "SW18" H 7550 2285 50  0000 C CNN
+F 1 "SW_Push" H 7550 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 7550 2200 50  0001 C CNN
+F 3 "~" H 7550 2200 50  0001 C CNN
+	1    7550 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D28
+U 1 1 619B4C0B
+P 7750 2900
+F 0 "D28" V 7796 2832 50  0000 R CNN
+F 1 "D" V 7705 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 7750 2900 50  0001 C CNN
+F 3 "~" V 7750 2900 50  0001 C CNN
+	1    7750 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 2700 7750 2800
+$Comp
+L Switch:SW_Push SW28
+U 1 1 619B4C12
+P 7550 2700
+F 0 "SW28" H 7550 2985 50  0000 C CNN
+F 1 "SW_Push" H 7550 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 7550 2900 50  0001 C CNN
+F 3 "~" H 7550 2900 50  0001 C CNN
+	1    7550 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D9
+U 1 1 619B4C18
+P 8550 1500
+F 0 "D9" V 8596 1432 50  0000 R CNN
+F 1 "D" V 8505 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 8550 1500 50  0001 C CNN
+F 3 "~" V 8550 1500 50  0001 C CNN
+	1    8550 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 1300 8550 1400
+$Comp
+L Switch:SW_Push SW9
+U 1 1 619B4C1F
+P 8350 1300
+F 0 "SW9" H 8350 1585 50  0000 C CNN
+F 1 "SW_Push" H 8350 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 8350 1500 50  0001 C CNN
+F 3 "~" H 8350 1500 50  0001 C CNN
+	1    8350 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D19
+U 1 1 619B4C25
+P 8550 2200
+F 0 "D19" V 8596 2132 50  0000 R CNN
+F 1 "D" V 8505 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 8550 2200 50  0001 C CNN
+F 3 "~" V 8550 2200 50  0001 C CNN
+	1    8550 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2000 8550 2100
+$Comp
+L Switch:SW_Push SW19
+U 1 1 619B4C2C
+P 8350 2000
+F 0 "SW19" H 8350 2285 50  0000 C CNN
+F 1 "SW_Push" H 8350 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 8350 2200 50  0001 C CNN
+F 3 "~" H 8350 2200 50  0001 C CNN
+	1    8350 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D29
+U 1 1 619B4C32
+P 8550 2900
+F 0 "D29" V 8596 2832 50  0000 R CNN
+F 1 "D" V 8505 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 8550 2900 50  0001 C CNN
+F 3 "~" V 8550 2900 50  0001 C CNN
+	1    8550 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8550 2700 8550 2800
+$Comp
+L Switch:SW_Push SW29
+U 1 1 619B4C39
+P 8350 2700
+F 0 "SW29" H 8350 2985 50  0000 C CNN
+F 1 "SW_Push" H 8350 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 8350 2900 50  0001 C CNN
+F 3 "~" H 8350 2900 50  0001 C CNN
+	1    8350 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D10
+U 1 1 619B4C3F
+P 9350 1500
+F 0 "D10" V 9396 1432 50  0000 R CNN
+F 1 "D" V 9305 1432 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 9350 1500 50  0001 C CNN
+F 3 "~" V 9350 1500 50  0001 C CNN
+	1    9350 1500
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 1300 9350 1400
+$Comp
+L Switch:SW_Push SW10
+U 1 1 619B4C46
+P 9150 1300
+F 0 "SW10" H 9150 1585 50  0000 C CNN
+F 1 "SW_Push" H 9150 1494 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 9150 1500 50  0001 C CNN
+F 3 "~" H 9150 1500 50  0001 C CNN
+	1    9150 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D20
+U 1 1 619B4C4C
+P 9350 2200
+F 0 "D20" V 9396 2132 50  0000 R CNN
+F 1 "D" V 9305 2132 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 9350 2200 50  0001 C CNN
+F 3 "~" V 9350 2200 50  0001 C CNN
+	1    9350 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 2000 9350 2100
+$Comp
+L Switch:SW_Push SW20
+U 1 1 619B4C53
+P 9150 2000
+F 0 "SW20" H 9150 2285 50  0000 C CNN
+F 1 "SW_Push" H 9150 2194 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 9150 2200 50  0001 C CNN
+F 3 "~" H 9150 2200 50  0001 C CNN
+	1    9150 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D30
+U 1 1 619B4C59
+P 9350 2900
+F 0 "D30" V 9396 2832 50  0000 R CNN
+F 1 "D" V 9305 2832 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 9350 2900 50  0001 C CNN
+F 3 "~" V 9350 2900 50  0001 C CNN
+	1    9350 2900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	9350 2700 9350 2800
+$Comp
+L Switch:SW_Push SW30
+U 1 1 619B4C60
+P 9150 2700
+F 0 "SW30" H 9150 2985 50  0000 C CNN
+F 1 "SW_Push" H 9150 2894 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 9150 2900 50  0001 C CNN
+F 3 "~" H 9150 2900 50  0001 C CNN
+	1    9150 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D33
+U 1 1 619B7005
+P 4800 3600
+F 0 "D33" V 4846 3532 50  0000 R CNN
+F 1 "D" V 4755 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4800 3600 50  0001 C CNN
+F 3 "~" V 4800 3600 50  0001 C CNN
+	1    4800 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 3400 4800 3500
+$Comp
+L Switch:SW_Push SW33
+U 1 1 619B700C
+P 4600 3400
+F 0 "SW33" H 4600 3685 50  0000 C CNN
+F 1 "SW_Push" H 4600 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 4600 3600 50  0001 C CNN
+F 3 "~" H 4600 3600 50  0001 C CNN
+	1    4600 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D32
+U 1 1 619B8260
+P 4000 3600
+F 0 "D32" V 4046 3532 50  0000 R CNN
+F 1 "D" V 3955 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 4000 3600 50  0001 C CNN
+F 3 "~" V 4000 3600 50  0001 C CNN
+	1    4000 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 3400 4000 3500
+$Comp
+L Switch:SW_Push SW32
+U 1 1 619B8267
+P 3800 3400
+F 0 "SW32" H 3800 3685 50  0000 C CNN
+F 1 "SW_Push" H 3800 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3800 3600 50  0001 C CNN
+F 3 "~" H 3800 3600 50  0001 C CNN
+	1    3800 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D31
+U 1 1 619B9677
+P 3200 3600
+F 0 "D31" V 3246 3532 50  0000 R CNN
+F 1 "D" V 3155 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 3200 3600 50  0001 C CNN
+F 3 "~" V 3200 3600 50  0001 C CNN
+	1    3200 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3200 3400 3200 3500
+$Comp
+L Switch:SW_Push SW31
+U 1 1 619B967E
+P 3000 3400
+F 0 "SW31" H 3000 3685 50  0000 C CNN
+F 1 "SW_Push" H 3000 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 3000 3600 50  0001 C CNN
+F 3 "~" H 3000 3600 50  0001 C CNN
+	1    3000 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D36
+U 1 1 619BED44
+P 7750 3600
+F 0 "D36" V 7796 3532 50  0000 R CNN
+F 1 "D" V 7705 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 7750 3600 50  0001 C CNN
+F 3 "~" V 7750 3600 50  0001 C CNN
+	1    7750 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7750 3400 7750 3500
+$Comp
+L Switch:SW_Push SW36
+U 1 1 619BED4B
+P 7550 3400
+F 0 "SW36" H 7550 3685 50  0000 C CNN
+F 1 "SW_Push" H 7550 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 7550 3600 50  0001 C CNN
+F 3 "~" H 7550 3600 50  0001 C CNN
+	1    7550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D35
+U 1 1 619BED51
+P 6950 3600
+F 0 "D35" V 6996 3532 50  0000 R CNN
+F 1 "D" V 6905 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6950 3600 50  0001 C CNN
+F 3 "~" V 6950 3600 50  0001 C CNN
+	1    6950 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 3400 6950 3500
+$Comp
+L Switch:SW_Push SW35
+U 1 1 619BED58
+P 6750 3400
+F 0 "SW35" H 6750 3685 50  0000 C CNN
+F 1 "SW_Push" H 6750 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 6750 3600 50  0001 C CNN
+F 3 "~" H 6750 3600 50  0001 C CNN
+	1    6750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:D D34
+U 1 1 619BED5E
+P 6150 3600
+F 0 "D34" V 6196 3532 50  0000 R CNN
+F 1 "D" V 6105 3532 50  0000 R CNN
+F 2 "Horizon:D_SOD-123" V 6150 3600 50  0001 C CNN
+F 3 "~" V 6150 3600 50  0001 C CNN
+	1    6150 3600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6150 3400 6150 3500
+$Comp
+L Switch:SW_Push SW34
+U 1 1 619BED65
+P 5950 3400
+F 0 "SW34" H 5950 3685 50  0000 C CNN
+F 1 "SW_Push" H 5950 3594 50  0000 C CNN
+F 2 "Horizon:SW_MX_plate" H 5950 3600 50  0001 C CNN
+F 3 "~" H 5950 3600 50  0001 C CNN
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1600 2400 1600
+Connection ~ 2400 1600
+Wire Wire Line
+	2400 1600 3200 1600
+Connection ~ 3200 1600
+Wire Wire Line
+	3200 1600 4000 1600
+Connection ~ 4000 1600
+Wire Wire Line
+	4000 1600 4800 1600
+Connection ~ 4800 1600
+Wire Wire Line
+	4800 1600 6150 1600
+Connection ~ 6150 1600
+Wire Wire Line
+	6150 1600 6950 1600
+Connection ~ 6950 1600
+Wire Wire Line
+	6950 1600 7750 1600
+Connection ~ 7750 1600
+Wire Wire Line
+	7750 1600 8550 1600
+Connection ~ 8550 1600
+Wire Wire Line
+	8550 1600 9350 1600
+Wire Wire Line
+	9350 1600 9550 1600
+Connection ~ 9350 1600
+Text GLabel 9550 1600 2    50   Input ~ 0
+row1
+Wire Wire Line
+	1200 950  1200 1300
+Connection ~ 1200 1300
+Wire Wire Line
+	1200 1300 1200 2000
+Connection ~ 1200 2000
+Wire Wire Line
+	1200 2000 1200 2700
+Wire Wire Line
+	2000 2700 2000 2000
+Connection ~ 2000 1300
+Wire Wire Line
+	2000 1300 2000 950 
+Connection ~ 2000 2000
+Wire Wire Line
+	2000 2000 2000 1300
+Wire Wire Line
+	2800 2700 2800 2000
+Connection ~ 2800 1300
+Wire Wire Line
+	2800 1300 2800 950 
+Connection ~ 2800 2000
+Wire Wire Line
+	2800 2000 2800 1300
+Wire Wire Line
+	3600 2700 3600 2000
+Connection ~ 3600 1300
+Wire Wire Line
+	3600 1300 3600 950 
+Connection ~ 3600 2000
+Wire Wire Line
+	3600 2000 3600 1300
+Wire Wire Line
+	2800 3400 2800 2700
+Connection ~ 2800 2700
+Wire Wire Line
+	3600 3400 3600 2700
+Connection ~ 3600 2700
+Wire Wire Line
+	4400 3400 4400 2700
+Connection ~ 4400 1300
+Wire Wire Line
+	4400 1300 4400 950 
+Connection ~ 4400 2000
+Wire Wire Line
+	4400 2000 4400 1300
+Connection ~ 4400 2700
+Wire Wire Line
+	4400 2700 4400 2000
+Wire Wire Line
+	5750 3400 5750 2700
+Connection ~ 5750 1300
+Wire Wire Line
+	5750 1300 5750 950 
+Connection ~ 5750 2000
+Wire Wire Line
+	5750 2000 5750 1300
+Connection ~ 5750 2700
+Wire Wire Line
+	5750 2700 5750 2000
+Wire Wire Line
+	6550 3400 6550 2700
+Connection ~ 6550 1300
+Wire Wire Line
+	6550 1300 6550 950 
+Connection ~ 6550 2000
+Wire Wire Line
+	6550 2000 6550 1300
+Connection ~ 6550 2700
+Wire Wire Line
+	6550 2700 6550 2000
+Wire Wire Line
+	7350 3400 7350 2700
+Connection ~ 7350 1300
+Wire Wire Line
+	7350 1300 7350 950 
+Connection ~ 7350 2000
+Wire Wire Line
+	7350 2000 7350 1300
+Connection ~ 7350 2700
+Wire Wire Line
+	7350 2700 7350 2000
+Wire Wire Line
+	8150 2700 8150 2000
+Connection ~ 8150 1300
+Wire Wire Line
+	8150 1300 8150 950 
+Connection ~ 8150 2000
+Wire Wire Line
+	8150 2000 8150 1300
+Wire Wire Line
+	8950 2700 8950 2000
+Connection ~ 8950 2000
+Wire Wire Line
+	8950 2000 8950 1300
+Wire Wire Line
+	1600 2300 2400 2300
+Connection ~ 2400 2300
+Wire Wire Line
+	2400 2300 3200 2300
+Connection ~ 3200 2300
+Wire Wire Line
+	3200 2300 4000 2300
+Connection ~ 4000 2300
+Wire Wire Line
+	4000 2300 4800 2300
+Connection ~ 4800 2300
+Wire Wire Line
+	4800 2300 6150 2300
+Connection ~ 6150 2300
+Wire Wire Line
+	6150 2300 6950 2300
+Connection ~ 6950 2300
+Wire Wire Line
+	6950 2300 7750 2300
+Connection ~ 7750 2300
+Wire Wire Line
+	7750 2300 8550 2300
+Connection ~ 8550 2300
+Wire Wire Line
+	8550 2300 9350 2300
+Connection ~ 9350 2300
+Wire Wire Line
+	9350 2300 9550 2300
+Wire Wire Line
+	1600 3000 2400 3000
+Connection ~ 2400 3000
+Wire Wire Line
+	2400 3000 3200 3000
+Connection ~ 3200 3000
+Wire Wire Line
+	3200 3000 4000 3000
+Connection ~ 4000 3000
+Wire Wire Line
+	4000 3000 4800 3000
+Connection ~ 4800 3000
+Wire Wire Line
+	4800 3000 6150 3000
+Connection ~ 6150 3000
+Wire Wire Line
+	6150 3000 6950 3000
+Connection ~ 6950 3000
+Wire Wire Line
+	6950 3000 7750 3000
+Connection ~ 7750 3000
+Wire Wire Line
+	7750 3000 8550 3000
+Connection ~ 8550 3000
+Wire Wire Line
+	8550 3000 9350 3000
+Connection ~ 9350 3000
+Wire Wire Line
+	9350 3000 9550 3000
+Wire Wire Line
+	3200 3700 4000 3700
+Connection ~ 4000 3700
+Wire Wire Line
+	4000 3700 4800 3700
+Connection ~ 4800 3700
+Wire Wire Line
+	4800 3700 6150 3700
+Connection ~ 6150 3700
+Wire Wire Line
+	6150 3700 6950 3700
+Connection ~ 6950 3700
+Wire Wire Line
+	6950 3700 7750 3700
+Connection ~ 7750 3700
+Wire Wire Line
+	7750 3700 7950 3700
+Text GLabel 1200 950  1    50   Input ~ 0
+col1
+Text GLabel 2000 950  1    50   Input ~ 0
+col2
+Text GLabel 2800 950  1    50   Input ~ 0
+col3
+Text GLabel 3600 950  1    50   Input ~ 0
+col4
+Text GLabel 4400 950  1    50   Input ~ 0
+col5
+Text GLabel 5750 950  1    50   Input ~ 0
+col6
+Text GLabel 6550 950  1    50   Input ~ 0
+col7
+Text GLabel 7350 950  1    50   Input ~ 0
+col8
+Text GLabel 8150 950  1    50   Input ~ 0
+col9
+Connection ~ 8950 1300
+Wire Wire Line
+	8950 1300 8950 900 
+Text GLabel 8950 900  1    50   Input ~ 0
+col10
+Text GLabel 9550 2300 2    50   Input ~ 0
+row2
+Text GLabel 9550 3000 2    50   Input ~ 0
+row3
+Text GLabel 7950 3700 2    50   Input ~ 0
+row4
+Text GLabel 7900 4750 0    50   Input ~ 0
+row1
+Wire Wire Line
+	9300 4550 9700 4550
+Wire Wire Line
+	9300 4650 9700 4650
+Wire Wire Line
+	9700 4550 9700 4650
+Connection ~ 9700 4650
+Text GLabel 7900 4850 0    50   Input ~ 0
+row2
+Text GLabel 9300 4750 2    50   Input ~ 0
+row3
+Text GLabel 9300 4850 2    50   Input ~ 0
+row4
+Text GLabel 7900 5450 0    50   Input ~ 0
+col1
+Text GLabel 7900 5350 0    50   Input ~ 0
+col2
+Text GLabel 7900 5250 0    50   Input ~ 0
+col3
+Text GLabel 7900 5150 0    50   Input ~ 0
+col4
+Text GLabel 7900 5050 0    50   Input ~ 0
+col5
+Text GLabel 9300 5050 2    50   Input ~ 0
+col6
+Text GLabel 9300 5150 2    50   Input ~ 0
+col7
+Text GLabel 9300 5250 2    50   Input ~ 0
+col8
+Text GLabel 9300 5350 2    50   Input ~ 0
+col9
+Text GLabel 9300 5450 2    50   Input ~ 0
+col10
+$Comp
+L HorizonParts:Hole_Pad H1
+U 1 1 61A3B488
+P 2500 5050
+F 0 "H1" H 2600 5099 50  0000 L CNN
+F 1 "Hole_Pad" H 2600 5008 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 2500 5050 50  0001 C CNN
+F 3 "" H 2500 5050 50  0001 C CNN
+	1    2500 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H3
+U 1 1 61A3BB9C
+P 2500 5350
+F 0 "H3" H 2600 5399 50  0000 L CNN
+F 1 "Hole_Pad" H 2600 5308 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 2500 5350 50  0001 C CNN
+F 3 "" H 2500 5350 50  0001 C CNN
+	1    2500 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H2
+U 1 1 61A3F6B1
+P 3150 5050
+F 0 "H2" H 3250 5099 50  0000 L CNN
+F 1 "Hole_Pad" H 3250 5008 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 3150 5050 50  0001 C CNN
+F 3 "" H 3150 5050 50  0001 C CNN
+	1    3150 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H5
+U 1 1 61A46E86
+P 2500 5650
+F 0 "H5" H 2600 5699 50  0000 L CNN
+F 1 "Hole_Pad" H 2600 5608 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 2500 5650 50  0001 C CNN
+F 3 "" H 2500 5650 50  0001 C CNN
+	1    2500 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H6
+U 1 1 61A4A931
+P 3150 5650
+F 0 "H6" H 3250 5699 50  0000 L CNN
+F 1 "Hole_Pad" H 3250 5608 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 3150 5650 50  0001 C CNN
+F 3 "" H 3150 5650 50  0001 C CNN
+	1    3150 5650
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H7
+U 1 1 61A4E972
+P 2500 5950
+F 0 "H7" H 2600 5999 50  0000 L CNN
+F 1 "Hole_Pad" H 2600 5908 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 2500 5950 50  0001 C CNN
+F 3 "" H 2500 5950 50  0001 C CNN
+	1    2500 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H9
+U 1 1 61DD4623
+P 2500 6300
+F 0 "H9" H 2600 6349 50  0000 L CNN
+F 1 "Hole_Pad" H 2600 6258 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 2500 6300 50  0001 C CNN
+F 3 "" H 2500 6300 50  0001 C CNN
+	1    2500 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L HorizonParts:Hole_Pad H10
+U 1 1 61DD836E
+P 3150 6300
+F 0 "H10" H 3250 6349 50  0000 L CNN
+F 1 "Hole_Pad" H 3250 6258 50  0000 L CNN
+F 2 "Horizon:Mount_M2" H 3150 6300 50  0001 C CNN
+F 3 "" H 3150 6300 50  0001 C CNN
+	1    3150 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J1
+U 1 1 624D1CCD
+P 5750 5650
+F 0 "J1" V 5754 5830 50  0000 L CNN
+F 1 "Trackball" V 5845 5830 50  0000 L CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x03_P2.00mm_Vertical" H 5750 5650 50  0001 C CNN
+F 3 "~" H 5750 5650 50  0001 C CNN
+	1    5750 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J2
+U 1 1 624D699E
+P 6150 4400
+F 0 "J2" V 6212 4444 50  0000 L CNN
+F 1 "LCD_Power" V 6303 4444 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6150 4400 50  0001 C CNN
+F 3 "~" H 6150 4400 50  0001 C CNN
+	1    6150 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0105
+U 1 1 624D8D84
+P 5650 5950
+F 0 "#PWR0105" H 5650 5700 50  0001 C CNN
+F 1 "GND" H 5655 5777 50  0000 C CNN
+F 2 "" H 5650 5950 50  0001 C CNN
+F 3 "" H 5650 5950 50  0001 C CNN
+	1    5650 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0106
+U 1 1 624D9CC0
+P 5850 5450
+F 0 "#PWR0106" H 5850 5300 50  0001 C CNN
+F 1 "VCC" H 5865 5623 50  0000 C CNN
+F 2 "" H 5850 5450 50  0001 C CNN
+F 3 "" H 5850 5450 50  0001 C CNN
+	1    5850 5450
+	1    0    0    -1  
+$EndComp
+Text GLabel 5750 5450 1    50   Input ~ 0
+ps2_dat
+Text GLabel 5650 5450 1    50   Input ~ 0
+ps2_clk
+Text GLabel 9300 4450 2    50   Input ~ 0
+ps2_dat
+Text GLabel 8700 5650 3    50   Input ~ 0
+ps2_clk
+$Comp
+L power:GND #PWR0107
+U 1 1 624E0F2E
+P 6150 4600
+F 0 "#PWR0107" H 6150 4350 50  0001 C CNN
+F 1 "GND" H 6155 4427 50  0000 C CNN
+F 2 "" H 6150 4600 50  0001 C CNN
+F 3 "" H 6150 4600 50  0001 C CNN
+	1    6150 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0108
+U 1 1 624E1A30
+P 5900 4700
+F 0 "#PWR0108" H 5900 4550 50  0001 C CNN
+F 1 "VCC" H 5915 4873 50  0000 C CNN
+F 2 "" H 5900 4700 50  0001 C CNN
+F 3 "" H 5900 4700 50  0001 C CNN
+	1    5900 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6050 4600 6050 4700
+Wire Wire Line
+	6050 4700 5900 4700
+$Comp
+L HorizonParts:Elite-C U1
+U 1 1 6197343E
+P 8600 4900
+F 0 "U1" H 8600 5737 60  0000 C CNN
+F 1 "Pro-Micro" H 8600 5631 60  0000 C CNN
+F 2 "keebio:Elite-C" V 9650 2400 60  0001 C CNN
+F 3 "" V 9650 2400 60  0001 C CNN
+	1    8600 4900
+	-1   0    0    -1  
+$EndComp
+$EndSCHEMATC

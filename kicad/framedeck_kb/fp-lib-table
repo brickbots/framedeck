@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name Horizon)(type KiCad)(uri /Users/rich/Projects/mk/kicad/rsu_keyboard/horizon-footprints.pretty)(options "")(descr ""))
+  (lib (name rsu_graphics)(type KiCad)(uri /Users/rich/Projects/mk/kicad/rsu_keyboard/rsu_graphics.pretty)(options "")(descr ""))
+  (lib (name keebio)(type KiCad)(uri /Users/rich/Projects/mk/kicad/Keebio-Parts.pretty-master)(options "")(descr ""))
+)
