@@ -133,6 +133,6 @@ And finally with keycaps and fully working with Fedora 35
 
 ## Thanks
 
-Thansk for coming along on this tour.  If you have any questions or would like to build something 
+Thanks for coming along on this tour.  If you have any questions or would like to build something 
 similar feel free to reach out.  If you do build something based on the info in this repo, I'd love
 to see it!

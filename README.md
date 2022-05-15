@@ -2,7 +2,7 @@
 
 A Cyberdeck built with the framework mainboard.  
 
-PIC
+![framedeck](images/DSC_0367.jpeg)
 
 [Framework](https://frame.work) has 
 created a really slick, fully user servicable, laptop and have recently started selling the 
@@ -26,7 +26,7 @@ any of the other on-board connectors.
 That's all to say that when they reached out and explained thier plans and offered to let 
 me play with one, I jumped at the chance and this is what I came up with after some experimentation.
 
-PIC here
+![framedeck](images/DSC_0360.jpeg)
 
 It's my take on the slab style computers that were somewhat popular before the world settled
 on clamshell designs for portable computers.  I really wanted a 
@@ -40,12 +40,14 @@ it has solid capacity and is already desinged to work with the onboard power man
 other uses the mainboard can be powered via USB-C, so a solid powerbank would provide plenty 
 of runtime or it can run off any USB-C power brick for stationary use.
 
+![framedeck](images/DSC_0350.jpeg)
+
 For the case, I wanted something interesting that showed off the mainboard, custom keyboard PCB and 
 just looked unusual... so clear acrylic and brass won the day!  I thought about 3d printing, and 
 I could have done it in several sections, but building the unit up with layers of laser-cut acrylic 
 offered some interesting challenges and opportunities.  
 
-PIC
+![framedeck](images/DSC_0333.jpeg)
 
 Consider this repo a sort of 'guided tour' to give some inspiration and show what might be done with the
 framework mainboard.  I'll highlight some things that I think are interesting, or that were tricky, but 
