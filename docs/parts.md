@@ -16,6 +16,7 @@ Quantity|Item|URL
 1|Logitech 161A keyboard mouse trackball board mouse board T-SBC12-CP|https://www.aliexpress.com/item/1005001942167314.html
 1|7" HDMI IPS Display|https://www.amazon.com/gp/product/B08H8HZRLQ
 1|USB-C to HDMI cable|https://www.amazon.com/gp/product/B083KQNHQH/
+1|Set of speakers|https://www.adafruit.com/product/1669
 
 ## Keyboard
 Quantity|Item|URL

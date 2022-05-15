@@ -12,11 +12,16 @@ for M2 standoffs.  You can screw into the standoffs from the top
 and bottom to secure the assembly.  You will need LONG standoffs...
 I had to combine a couple to get them long enough.
 
-The bottom two layers are held together with M2 heat set inserts.  
-These inserts serve to secure the very bottom M layer to the bottom L 
-layer and also provide fixing points for the mainboard and battery.
+The bottom two layers are held together with 3mm long M2 heat set inserts.  
+Each of the bottom two layers are 1.5mm so the insert neatly joins them
+together when inserted through both. They serve to secure the very bottom M 
+layer to the bottom L layer and also provide fixing points for the mainboard 
+and battery.
 
-Please see this table below for full details of all the layers
+Please see this table below for full details of all the layers.  Since the 
+actual thickness of cut acrylic will usually vary, you may need to add or 
+remove some of the general spacer layers (E/G) or try different thicknesses.
+I ended up using all of these as is, with the exception of one of the 'C' layers
 
 ## Hardware
 Layer|Thickness (MM)|Notes|Image
