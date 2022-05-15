@@ -47,7 +47,7 @@ just looked unusual... so clear acrylic and brass won the day!  I thought about 
 I could have done it in several sections, but building the unit up with layers of laser-cut acrylic 
 offered some interesting challenges and opportunities.  
 
-![framedeck](images/DSC_0333.jpeg)
+![framedeck](images/DSC_0331.jpeg)
 
 Consider this repo a sort of 'guided tour' to give some inspiration and show what might be done with the
 framework mainboard.  I'll highlight some things that I think are interesting, or that were tricky, but 
