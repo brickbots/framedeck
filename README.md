@@ -61,3 +61,10 @@ and questions or provide advice.
 * [Parts List](docs/parts.md)
 * [Case Layers](case/layers.md)
 * [3d Printed Bits](printed_parts/bits.md)
+
+
+## Copyright and License
+
+Copyright (c) 2022 Richard Sutherland. All rights reserved.
+
+All files are licensed under MIT license or [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), see the [LICENSE](LICENSE) for more information.
