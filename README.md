@@ -16,7 +16,7 @@ in a collaboration of sorts.  They would provide one of their laptops and some a
 for me to build something unique with the only condition being that I released the designs 
 for public use.  So here we are!
 
-The mainboard is a great little unit, being a full Intel based system on a single obard with 
+The mainboard is a great little unit, being a full Intel based system on a single board with 
 great storage and memory expansion, decent on-board graphics and full power management.  Since
 it was designed to fit into the laptop first and foremost, some of the connectors are fairly
 specialized, but with the pinouts available there are a lot of opportunities for expansion. The
