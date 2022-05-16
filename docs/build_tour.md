@@ -28,10 +28,10 @@ also provides the mounting points for the battery and mainboard.
 Here you can see the placement of the mainboard and battery... but in this test fitting session I
 installed the battery in the wrong orientation.  I decided to install the mainboard and battery
 'upside down' so they would be fully visible from the bottom of the unit.  The mainboard is 
-correctly oriented but the batter connector is on the wrong side and the middle mountpoint 
+correctly oriented but the battery connector is on the wrong side and the middle mountpoint 
 doesn't line up.  This photo does show the small notch in some of the lower layers to 
 accomidate the battery.  It has to sit just so in relation to the mainboard as the connector
-is shot and rather stiff.
+is short and rather stiff.
 
 ![mainboard and battery](../images/mainboard_battery.jpeg)
 
@@ -68,7 +68,7 @@ provides a bit of a typing angle and makes the screen a little easier to see.
 ## Screen, Trackball and Power switch
 
 A couple spacer 'E' layers go on top of the bottom assembly and then we get to layer 'H' which
-supports the screen and trackball.  The both mount on top of this 3mm layer and secured with 
+supports the screen and trackball.  They both mount on top of this 3mm layer and secured with 
 screws.  The screen has it's own stand-offs and the trackball just has mounting holes.  
 
 ![screen and trackball](../images/screen_trackball.jpeg)
@@ -122,7 +122,7 @@ either side of the screen.  Here you can see them from the underside, already mo
 
 ![speakers](../images/speakers.jpeg)
 
-Here's the whole thign assembled with all the protective film taken off.  The routing of all the 
+Here's the whole thing assembled with all the protective film taken off.  The routing of all the 
 cables takes some care and the top layer is secured with screws to the stand offs
 
 ![assembled](../images/assembled.jpeg)
