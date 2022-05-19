@@ -61,6 +61,7 @@ and questions or provide advice.
 * [Parts List](docs/parts.md)
 * [Case Layers](case/layers.md)
 * [3d Printed Bits](printed_parts/bits.md)
+* [What's with that keyboard?](docs/keyboard.md)
 
 
 ## Copyright and License
