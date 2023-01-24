@@ -69,3 +69,5 @@ and questions or provide advice.
 Copyright (c) 2022 Richard Sutherland. All rights reserved.
 
 All files are licensed under MIT license or [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/), see the [LICENSE](LICENSE) for more information.
+
+<a href='https://ko-fi.com/brickbots' target='_blank'><img height='35' style='border:0px;height:46px;' src='https://az743702.vo.msecnd.net/cdn/kofi3.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' />
