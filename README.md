@@ -23,7 +23,7 @@ specialized, but with the pinouts available there are a lot of opportunities for
 board also has four standard USB-C ports which provide many possibilities without even trying
 any of the other on-board connectors.
 
-That's all to say that when they reached out and explained thier plans and offered to let 
+That's all to say that when they reached out and explained their plans and offered to let 
 me play with one, I jumped at the chance and this is what I came up with after some experimentation.
 
 ![framedeck](images/DSC_0360.jpeg)
